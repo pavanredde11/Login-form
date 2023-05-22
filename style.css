@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d6b4b4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.field-group{
+    width: 100%;
+    position: relative;
+}
+
+.input-field{
+    width: 100%;
+    outline: 0;
+    border: 2px solid #999999;
+    border-radius: 3px;
+    padding: 10px;
+    padding-left: 60px;
+    background: transparent;
+    font-size: 2em;
+    color: #fcfbfb;
+}
+
+
+.input-field::placeholder{
+    color: #ffffff;
+}
+
+.icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #15c26b;
+    font-size: 1.6em;
+}
+
+.input-field:focus{
+    color: #161616;
+    border-color: #ffffff;
+}
+.input-field:focus ~ .icon{
+    color: #1a1919;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #000000;
+}
+
+form p{
+    text-align: left;
+    font: 13px;
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.input-group button {
+    width: 50%;
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    margin: 10px;
+    
+}
+
+.h3{
+    margin: 30px 0 0 0px;
+    
+}
+
+.btn-field button{
+  width: 80%;
+  flex-basis: 48%;
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  padding: 20px 12px;
+  border-radius: 20px;
+  background-color: #3c00a0;
+  color: #fcfbfb;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-field i{
+   padding-right: 20px;
+}
+
+.input-group{
+    height: 250px;
+}
+
